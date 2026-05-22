@@ -1,9 +1,38 @@
 # Claude Skills
 
-Custom Claude Code skills for industry chain mapping.
+自定义 Claude Code 技能包，用于产业链赛道 Mapping 的系统方法论。
 
-## industry-mapping
+## 技能列表
 
-Seven-phase methodology: research -> chain breakdown -> startup deep-dive -> listed companies -> global benchmarking -> market matrix -> investment perspective.
+### industry-mapping — 产业链 Mapping
 
-Three modes: lite (startup scan), standard (chain + listings + market), full (+ global + investment).
+当我说「帮我 mapping 一下 XX 赛道」「做 XX 产业链梳理」「XX 赛道全景分析」时自动触发。
+
+按七个阶段系统性梳理赛道，输出结构化 Markdown 报告 + Excel。
+
+#### Mapping 七步法
+
+
+
+#### 三种模式
+
+| 模式 | 覆盖阶段 | 适用场景 |
+|------|---------|---------|
+| 精简模式 | 01->02->03 | 快速扫描赛道Startup |
+| 标准模式 | 01->02->03->04->06 | 标准Mapping含产业链+上市公司 |
+| 完整模式 | 01->02->03->04->05->06->07 | 完整Mapping含海外对标+投资建议 |
+
+#### 输出物
+
+- **Markdown 报告**: 完整的分析文档，含产业链图、公司对比、投资建议
+- **Excel**: 6个 Sheet 的结构化数据表（Startup总表/海外对标/上游零部件/上市公司/场景矩阵/投资视角），参考量子科技Mapping格式
+
+#### 每家公司12列指标
+
+公司名称 | 细分赛道 | 成立/总部 | 创始人/CEO | 技术路线 | 核心产品/参数 | 商业化阶段 | 融资情况 | 团队背景 | 军工关联度 | 核心优势 | 核心风险
+
+---
+
+### 文件结构
+
+
